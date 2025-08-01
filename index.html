@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia</title>
+
+    <!-- Fonte para TÍTULOS: Cinzel -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Fonte para TEXTOS: Roboto Slab -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!--Link do fonte awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Animação -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="shortcut icon" href="img/Favicon.icon.png" type="image/x-icon">
+    
+</head>
+<body>
+
+<header class="header-menu" data-aos="fade-up" data-aos-duration="1000">
+    <nav class="navegar">
+
+        <div class="div-logo"><img src="/img/logo.png" alt="Logo" id="logo"></div>
+
+        <div class="div-list">
+            <ul class="list">
+                <li class="nav-list"><a href="#hero" class="link">Home</a></li>
+                <li class="nav-list"><a href="#servicos" class="link">Serviços</a></li>
+                <li class="nav-list"><a href="#tabela" class="link">Tabela</a></li>
+                <li class="nav-list"><a href="#contato"  class="link">Contato</a></li>
+            </ul>
+        </div>
+
+        <button class="menu" onclick="menuShow()"><img id="icon"  src="/img/icones/bars-solid-full.svg" alt="abrir menu"></button>
+        
+    </nav>
+
+    <div class="mobile-menu ">
+        <ul class="list">
+            <li class="nav-list"><a href="#hero" class="link">Home</a></li>
+            <li class="nav-list"><a href="#servicos" class="link">Serviços</a></li>
+            <li class="nav-list"><a href="#tabela" class="link">Tabela</a></li>
+            <li class="nav-list"><a href="#contato"  class="link">Contato</a></li>
+        </ul>
+    </div>
+
+</header>
+
+    <section id="hero" class="Hero" data-aos="fade-up"  >
+        <div class="conteiner-hero">
+            <h1>Bem Vindo a Minha Barbearia</h1>
+            <h2>Mais que um corte, uma experiência de atitude</h2>
+            <button><a href="#"></a>Agende agora</button>
+        </div>
+    </section>
+
+    <section id="servicos" class="Servicos">
+        <div class="conteiner-servicos" data-aos="zoom-in" data-aos-duration="2000">
+            <h1>Portifolio</h1>
+            <h2>Servicos Prestados</h2>
+        </div>
+            <div class="grid" data-aos="fade-up" data-aos-easing="linear">
+                <div class="conteiner-img"><img src="/img/Protifolio/eye-speak-7GH0B02mBtU-unsplash.jpg" alt="trabalhos"></div>
+                <div class="conteiner-img"><img src="/img/Protifolio/hai-phung-m4Pd_e-4zKs-unsplash.jpg" alt="trabalhos"></div>
+                <div class="conteiner-img"><img src="/img/Protifolio/john-arano-CCTCHXEsan8-unsplash.jpg" alt="trabalhos"></div>
+                <div class="conteiner-img"><img src="/img/Protifolio/nate-johnston-tgPrIYnW3g4-unsplash.jpg" alt="trabalhos"></div>
+            </div>
+        
+    </section>
+
+    <section id="tabela" class="Tabela">
+        <div class="sobre" data-aos="fade-right">
+            <h1>Sobre Meus Serviços</h1>
+            <p>
+                Na nossa barbearia, cada atendimento é pensado para oferecer mais do que um corte — é uma experiência. 
+                Trabalhamos com cortes clássicos e modernos, barba desenhada, navalha quente, hidratação, e design personalizado, 
+                tudo em um ambiente confortável e com atendimento de qualidade.
+                Seja para renovar o visual ou manter o estilo em dia, você encontra aqui o cuidado que merece. Agende seu horário
+                e sinta a diferença de um serviço feito com atenção aos detalhes.
+            </p>
+        </div>
+        <div class="conteiner-tabela" data-aos="fade-down">
+            <img src="/img/566w-zWsyHrHSOVE.webp" alt="Tabela de Preços">
+        </div>
+    </section>
+
+    <footer id="contato" class="Contato">
+        <div class="conteiner-contato" data-aos="zoom-in-up">
+            <p>Solicite orçamento</p>
+            <div class="lista-icon">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="/scr.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
