@@ -93,7 +93,7 @@ li,
 .Hero{
     width: 100%;
     height: 789px;
-    background-image: url('/img/Fundo-Home.jpg');
+    background-image: url('img/Fundo-Home.jpg');
     background-size: cover;       /* Redimensiona para cobrir tudo */
     background-position: center;  /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetir a imagem */
