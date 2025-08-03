@@ -26,6 +26,11 @@ h3,
     font-family: 'Cinzel', serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 /* Textos comuns */
 body,
 p,
